@@ -15,8 +15,13 @@ years are separated.
 Only works from 1901 to 2099 because 1900 and 2100 do not follow the simple "years divisible by 4" leap year rule.
 
 Examples:
+
   GenerateEasterBasedHolidays.py Easter           0
+  
   GenerateEasterBasedHolidays.py "Good Friday"    2
+  
   GenerateEasterBasedHolidays.py "Palm Sunday"    7
+  
   GenerateEasterBasedHolidays.py "Ash Wednesday" 46
+  
   GenerateEasterBasedHolidays.py "Mardi Gras"    47
